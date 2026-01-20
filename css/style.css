@@ -1,15 +1,25 @@
+<<<<<<< HEAD
  * {
      margin: 0;
      padding: 0;
      font-family: 'Poppins';
      box-sizing: border-box;
  }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+>>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
 
- body {
-     background-color: #2a2a2a;
- }
+body {
+    background-color: #2a2a2a;
+    overflow-x: hidden;
+}
 
 
+<<<<<<< HEAD
  #div1 {
      height: 95vh;
      display: flex;
@@ -195,33 +205,348 @@
 
 
 #card{
+=======
+#div1 {
+    height: 95vh;
+>>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
     display: flex;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    background: linear-gradient(90deg, #5b0e91, #2c004f);
+}
+
+.text-section {
+    padding: 10px 50px;
+    width: 90%;
+}
+
+.text-section h2 {
+    line-height: 70px;
+    font-size: 60px;
+    color: #d9a7fca7;
+    font-weight: 700;
+}
+
+.text-section h4 {
+    color: white;
+    margin-top: 160px;
+    font-size: 45px;
+}
+
+.text-section p {
+    font-size: 22px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 260px;
+    height: 260px;
+    margin: 40px;
+    object-fit: cover;
+    border-radius: 200px;
+    border: 1px solid #ba65ff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.social-container {
+    display: flex;
+    gap: 15px;
+    margin: 10px 50px;
+}
+
+.social-container a {
+    background-color: #6e44a1;
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-container a:hover {
+    background-color: #9c6dde;
+    transform: scale(1.1);
+}
+
+
+#section2 {
+    z-index: 2;
+    position: relative;
+    height: 90vh;
+    background: url('../img/back-purple.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+#div2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#section2 #texto2 {
+    margin-top: 100px;
+    padding: 40px;
+    margin-left: 50px;
+}
+
+#title-sec2 h2 {
+    width: fit-content;
+    color: #ddb2fca7;
+    padding: 10px 20px;
+    font-size: 46px;
+    margin-top: 20px;
+    background-color: #2c2c2d;
+    border: 3px solid #ba65ff;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#text-sec2 {
+    margin-top: 30px;
+    max-width: 700px;
+    background-color: #2c2c2d;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+#text-sec2 p {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+#section3 #pt1 {
+    min-height: 50vh;
+    color: white;
+}
+
+#section3 #div3 h2 {
+    color: #ddb2fca7;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-      gap: 40px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+   
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.tech {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.html {
+    background: #e44d26;
+}
+
+.css {
+    background: #264de4;
+}
+
+.js {
+    background: #f0db4f;
+    color: #323330;
+}
+
+.react {
+    background: #61dafb;
+    color: #20232a;
+}
+
+.figma {
+    background: #a259ff;
+    color: #323330;
+}
+
+.container i {
+    font-size: 36px;
+}
+
+#section3 #pt2 {
+    padding: 20px;
+}
+
+#section3 #pt2 h2 {
+    color: #ddb2fca7;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section3 #texto-sec3 p {
+    font-size: 20px;
+    text-align: justify;
+    color: #c1c1c1;
+    margin: 16px auto;
+    max-width: 900px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: #5b0e91;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #e5bdff;
+    text-transform: uppercase;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #eaeaea;
+}
+
+.card-footer {
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.card-footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #b482ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.card-footer a:hover {
+    background: #6d28d9;
+}
+
+
+#footer {
+    background: linear-gradient(90deg, #5b0e91, #2c004f);
+    color: white;
+    padding: 40px 20px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#info h5 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.social-container-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-container-footer a {
+    background-color: #6e44a1;
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-container-footer a:hover {
+    background-color: #9c6dde;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+    .text-section h2 {
+        font-size: 42px;
+        line-height: 55px;
     }
 
-    .circle {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
+    .text-section h4 {
+        font-size: 32px;
+        margin-top: 100px;
     }
 
-    .tech {
-      text-align: center;
-      color: #fff;
-      font-weight: bold;
-      margin-top: 10px;
+    #text-sec2 p {
+        font-size: 18px;
     }
+}
 
+<<<<<<< HEAD
     .item {
       text-align: center;
     }
@@ -502,3 +827,110 @@
          float: right;
      }
  }
+=======
+@media (max-width: 768px) {
+    #div1 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .text-section {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .text-section h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .text-section h4 {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .image-section {
+        width: 100%;
+    }
+
+    .image-section img {
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    #section2{
+        height: 50vh;
+    }
+
+    #section2 #texto2 {
+        margin-left: 0;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    #title-sec2 h2 {
+        font-size: 32px;
+    }
+
+    #text-sec2 p {
+        font-size: 16px;
+    }
+
+    .container {
+        gap: 20px;
+    }
+
+    #section3 #texto-sec3 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-section h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .text-section h4 {
+        font-size: 22px;
+    }
+
+    .text-section p {
+        font-size: 16px;
+    }
+
+    .social-container {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .image-section img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #title-sec2 h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #text-sec2 p {
+        font-size: 14px;
+    }
+
+    .card-content h3 {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 12px;
+    }
+
+    #info h5 {
+        font-size: 20px;
+    }
+}
+>>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
