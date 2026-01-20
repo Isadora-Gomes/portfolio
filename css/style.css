@@ -1,25 +1,15 @@
-<<<<<<< HEAD
  * {
      margin: 0;
      padding: 0;
      font-family: 'Poppins';
-     box-sizing: border-box;
  }
-=======
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-}
->>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
 
-body {
-    background-color: #2a2a2a;
-    overflow-x: hidden;
-}
+ body {
+     background-color: #2a2a2a;
+     overflow-x: hidden;
+ }
 
 
-<<<<<<< HEAD
  #div1 {
      height: 95vh;
      display: flex;
@@ -97,14 +87,25 @@ body {
      z-index: 2;
      position: relative;
      min-height: 100vh;
-     background: url('../img/back-purple.png') no-repeat center center;
-     background-size: cover;
-     background-attachment: fixed;
      width: 100%;
      display: flex;
      align-items: center;
      justify-content: center;
      padding: 60px 20px;
+ }
+
+ #section2::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: url('../img/back-purple.png') no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+     z-index: -1;
+     pointer-events: none;
  }
 
  #div2 {
@@ -155,11 +156,10 @@ body {
      background: rgba(25, 15, 45, 0.65);
      border: 2px solid rgba(186, 101, 255, 0.4);
      border-radius: 14px;
-     padding: 30px;
+     padding: 35px;
      backdrop-filter: blur(15px);
      box-shadow: 0 12px 40px rgba(186, 101, 255, 0.1);
      transition: all 0.3s ease;
-     box-sizing: border-box;
  }
     
     #text-sec2:hover {
@@ -205,10 +205,6 @@ body {
 
 
 #card{
-=======
-#div1 {
-    height: 95vh;
->>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
     display: flex;
     border-radius: 4px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -546,7 +542,6 @@ body {
     }
 }
 
-<<<<<<< HEAD
     .item {
       text-align: center;
     }
@@ -827,110 +822,3 @@ body {
          float: right;
      }
  }
-=======
-@media (max-width: 768px) {
-    #div1 {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-        padding: 40px 20px;
-    }
-
-    .text-section {
-        padding: 20px;
-        width: 95%;
-    }
-
-    .text-section h2 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .text-section h4 {
-        font-size: 26px;
-        margin-top: 20px;
-    }
-
-    .image-section {
-        width: 100%;
-    }
-
-    .image-section img {
-        margin: 20px auto;
-        width: 200px;
-        height: 200px;
-    }
-
-    #section2{
-        height: 50vh;
-    }
-
-    #section2 #texto2 {
-        margin-left: 0;
-        padding: 20px;
-        margin-top: 50px;
-    }
-
-    #title-sec2 h2 {
-        font-size: 32px;
-    }
-
-    #text-sec2 p {
-        font-size: 16px;
-    }
-
-    .container {
-        gap: 20px;
-    }
-
-    #section3 #texto-sec3 p {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .text-section h2 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-    .text-section h4 {
-        font-size: 22px;
-    }
-
-    .text-section p {
-        font-size: 16px;
-    }
-
-    .social-container {
-        justify-content: center;
-        margin: 20px 0;
-    }
-
-    .image-section img {
-        width: 150px;
-        height: 150px;
-    }
-
-    #title-sec2 h2 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    #text-sec2 p {
-        font-size: 14px;
-    }
-
-    .card-content h3 {
-        font-size: 16px;
-    }
-
-    .card-content p {
-        font-size: 12px;
-    }
-
-    #info h5 {
-        font-size: 20px;
-    }
-}
->>>>>>> b7eee2e58d0676c256318bf75bfcf100983b9ef0
