@@ -717,7 +717,7 @@
  #footer {
    background: linear-gradient(90deg, #5b0e91, #2c004f);
      color: white;
-     height: 30vh;
+     height: 42vh;
      position: relative;
      width: 100%;
      margin-top: 400px;
@@ -911,9 +911,7 @@
          font-size: 24px;
      }
 
-     #footer {
-         margin-top: 200px;
-     }
+     
  }
 
 
